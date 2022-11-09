@@ -4,9 +4,9 @@ from flask import Response
 import json
 
 f1 = open('./convective_map.geojson')
-f2 = open('./cape_clipped.geojson')
-f3 = open('./li_clipped.geojson')
-f4 = open('./ki_clipped.geojson')
+f2 = open('./cape_map.geojson')
+f3 = open('./li_map.geojson')
+f4 = open('./ki_map.geojson')
 
 geodata1 = json.load(f1)
 geodata2 = json.load(f2)

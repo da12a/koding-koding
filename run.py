@@ -1,7 +1,11 @@
 from flask import Flask
 from flask import Response
+from flask import request
+
 #from flask_ngrok import run_with_ngrok #hanya digunakan ketika menggunakan google colab dan tidak untuk di deploy ke heroku
 import json
+
+from flask_cors import CORS
 
 f1 = open('./convective_map.geojson')
 f2 = open('./cape_map.geojson')
